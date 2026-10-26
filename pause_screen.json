@@ -1,0 +1,28 @@
+{
+    "menu_background/button_panel": {
+        "modifications": [
+            {
+                "operation": "insert_after",
+                "control_name": "return",
+                "array_name": "controls",
+                "value": {
+                    "snow_padding@pause.vertical_padding": {}
+                }
+            },
+            {
+                "operation": "insert_after",
+                "control_name": "return",
+                "array_name": "controls",
+                "value": {
+                    "snow_setting_button@pause.pause_button_template": {
+                        "anchor_from": "top_middle",
+                        "anchor_to": "top_middle",
+                        "$pressed_button_name": "#snow.setting_click",
+                        "$button_text": "[模组名字] - 模组设置"
+                    }
+                }
+            }
+        ]
+    },
+    "namespace": "pause"
+}

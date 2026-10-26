@@ -1,0 +1,1514 @@
+{
+    "alpha": {
+        "anim_type": "alpha",
+        "duration": 0.2,
+        "from": 0,
+        "next": "",
+        "to": 1
+    },
+    "main": {
+        "type": "screen",
+        "controls": [
+            {
+                "panel": {
+                    "type": "panel",
+                    "anchor_from": "top_middle",
+                    "anchor_to": "top_middle",
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "mod_set": {
+                                "type": "panel",
+                                "anchor_from": "top_middle",
+                                "anchor_to": "top_middle",
+                                "offset": "@UI_Settings.offset1",
+                                "size": [
+                                    "95%+0px",
+                                    "95%+0px"
+                                ],
+                                "layer": 1,
+                                "alpha": "@UI_Settings.alpha",
+                                "propagate_alpha": true,
+                                "controls": [
+                                    {
+                                        "vertical_panel": {
+                                            "type": "panel",
+                                            "size": [
+                                                "100%+0px",
+                                                "100%+0px"
+                                            ],
+                                            "layer": 1,
+                                            "controls": [
+                                                {
+                                                    "horizontal_panel": {
+                                                        "type": "panel",
+                                                        "anchor_from": "bottom_middle",
+                                                        "anchor_to": "bottom_middle",
+                                                        "size": [
+                                                            "100%+0px",
+                                                            "93%+0px"
+                                                        ],
+                                                        "layer": 1,
+                                                        "controls": [
+                                                            {
+                                                                "left_panel": {
+                                                                    "type": "panel",
+                                                                    "anchor_from": "left_middle",
+                                                                    "anchor_to": "left_middle",
+                                                                    "size": [
+                                                                        "33%+0px",
+                                                                        "100%+0px"
+                                                                    ],
+                                                                    "layer": 1,
+                                                                    "controls": [
+                                                                        {
+                                                                            "bg": {
+                                                                                "type": "image",
+                                                                                "size": [
+                                                                                    "100%+0px",
+                                                                                    "100%+0px"
+                                                                                ],
+                                                                                "layer": 1,
+                                                                                "clip_ratio": 0.0,
+                                                                                "nineslice_size": [
+                                                                                    2.0,
+                                                                                    2.0,
+                                                                                    2.0,
+                                                                                    2.0
+                                                                                ],
+                                                                                "texture": "textures/OreUI/Dialog/snow_dialog_bkg"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "panel": {
+                                                                                "type": "panel",
+                                                                                "anchor_from": "left_middle",
+                                                                                "anchor_to": "left_middle",
+                                                                                "offset": "@UI_Settings.offset",
+                                                                                "size": [
+                                                                                    "97.5%+0px",
+                                                                                    "100%+0px"
+                                                                                ],
+                                                                                "layer": 1,
+                                                                                "alpha": "@UI_Settings.alpha",
+                                                                                "propagate_alpha": true,
+                                                                                "controls": [
+                                                                                    {
+                                                                                        "settings@common.button": {
+                                                                                            "type": "button",
+                                                                                            "$control_alpha": 1.0,
+                                                                                            "$default_texture": "textures/OreUI/Button/snow_formal_dark_btn_default",
+                                                                                            "$hover_texture": "textures/OreUI/Button/snow_formal_dark_btn_hover",
+                                                                                            "$is_new_nine_slice": false,
+                                                                                            "$label_color": [
+                                                                                                1,
+                                                                                                1,
+                                                                                                1
+                                                                                            ],
+                                                                                            "$label_font_scale_factor": 1.0,
+                                                                                            "$label_font_size": "large",
+                                                                                            "$label_layer": 3,
+                                                                                            "$label_offset": [
+                                                                                                0,
+                                                                                                0
+                                                                                            ],
+                                                                                            "$label_text": "",
+                                                                                            "$nine_slice_buttom": 0,
+                                                                                            "$nine_slice_left": 0,
+                                                                                            "$nine_slice_right": 0,
+                                                                                            "$nine_slice_top": 0,
+                                                                                            "$nineslice_size": [
+                                                                                                2.0,
+                                                                                                2.0,
+                                                                                                2.0,
+                                                                                                2.0
+                                                                                            ],
+                                                                                            "$pressed_button_name": "%netease_editor_template_namespace.click",
+                                                                                            "$pressed_texture": "textures/OreUI/Button/snow_formal_dark_btn_pressed",
+                                                                                            "$texture_layer": 2,
+                                                                                            "anchor_from": "top_left",
+                                                                                            "anchor_to": "top_left",
+                                                                                            "size": [
+                                                                                                "100%+0px",
+                                                                                                30.0
+                                                                                            ],
+                                                                                            "layer": 2,
+                                                                                            "button_mappings": [],
+                                                                                            "default_control": "default",
+                                                                                            "hover_control": "hover",
+                                                                                            "is_handle_button_move_event": true,
+                                                                                            "pressed_control": "pressed",
+                                                                                            "bindings": [
+                                                                                                {
+                                                                                                    "binding_type": "collection_details",
+                                                                                                    "binding_collection_name": "",
+                                                                                                    "binding_condition": "always_when_visible"
+                                                                                                }
+                                                                                            ],
+                                                                                            "controls": [
+                                                                                                {
+                                                                                                    "default@netease_editor_template_namespace.default": {}
+                                                                                                },
+                                                                                                {
+                                                                                                    "hover@netease_editor_template_namespace.hover": {}
+                                                                                                },
+                                                                                                {
+                                                                                                    "pressed@netease_editor_template_namespace.pressed": {}
+                                                                                                },
+                                                                                                {
+                                                                                                    "label": {
+                                                                                                        "type": "label",
+                                                                                                        "anchor_from": "left_middle",
+                                                                                                        "anchor_to": "left_middle",
+                                                                                                        "offset": [
+                                                                                                            10.0,
+                                                                                                            0.0
+                                                                                                        ],
+                                                                                                        "size": [
+                                                                                                            95.0,
+                                                                                                            "default"
+                                                                                                        ],
+                                                                                                        "layer": 3,
+                                                                                                        "font_scale_factor": 1.3,
+                                                                                                        "font_type": "default",
+                                                                                                        "text": "界面设置",
+                                                                                                        "text_alignment": "center",
+                                                                                                        "controls": [
+                                                                                                            {
+                                                                                                                "image": {
+                                                                                                                    "type": "image",
+                                                                                                                    "anchor_from": "left_middle",
+                                                                                                                    "anchor_to": "left_middle",
+                                                                                                                    "size": [
+                                                                                                                        15.0,
+                                                                                                                        "default"
+                                                                                                                    ],
+                                                                                                                    "layer": 1,
+                                                                                                                    "texture": "textures/ui/icon_setting"
+                                                                                                                }
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "update@common.button": {
+                                                                                            "type": "button",
+                                                                                            "$control_alpha": 1.0,
+                                                                                            "$default_texture": "textures/OreUI/Button/snow_formal_dark_btn_default",
+                                                                                            "$hover_texture": "textures/OreUI/Button/snow_formal_dark_btn_hover",
+                                                                                            "$is_new_nine_slice": false,
+                                                                                            "$label_color": [
+                                                                                                1,
+                                                                                                1,
+                                                                                                1
+                                                                                            ],
+                                                                                            "$label_font_scale_factor": 1.0,
+                                                                                            "$label_font_size": "large",
+                                                                                            "$label_layer": 3,
+                                                                                            "$label_offset": [
+                                                                                                0,
+                                                                                                0
+                                                                                            ],
+                                                                                            "$label_text": "",
+                                                                                            "$nine_slice_buttom": 0,
+                                                                                            "$nine_slice_left": 0,
+                                                                                            "$nine_slice_right": 0,
+                                                                                            "$nine_slice_top": 0,
+                                                                                            "$nineslice_size": [
+                                                                                                2.0,
+                                                                                                2.0,
+                                                                                                2.0,
+                                                                                                2.0
+                                                                                            ],
+                                                                                            "$pressed_button_name": "%netease_editor_template_namespace.click",
+                                                                                            "$pressed_texture": "textures/OreUI/Button/snow_formal_dark_btn_pressed",
+                                                                                            "$texture_layer": 2,
+                                                                                            "anchor_from": "top_left",
+                                                                                            "anchor_to": "top_left",
+                                                                                            "offset": [
+                                                                                                0.0,
+                                                                                                29.0
+                                                                                            ],
+                                                                                            "size": [
+                                                                                                "100%+0px",
+                                                                                                30.0
+                                                                                            ],
+                                                                                            "layer": 2,
+                                                                                            "button_mappings": [],
+                                                                                            "default_control": "default",
+                                                                                            "hover_control": "hover",
+                                                                                            "is_handle_button_move_event": true,
+                                                                                            "pressed_control": "pressed",
+                                                                                            "bindings": [
+                                                                                                {
+                                                                                                    "binding_type": "collection_details",
+                                                                                                    "binding_collection_name": "",
+                                                                                                    "binding_condition": "always_when_visible"
+                                                                                                }
+                                                                                            ],
+                                                                                            "controls": [
+                                                                                                {
+                                                                                                    "default@netease_editor_template_namespace.default": {}
+                                                                                                },
+                                                                                                {
+                                                                                                    "hover@netease_editor_template_namespace.hover": {}
+                                                                                                },
+                                                                                                {
+                                                                                                    "pressed@netease_editor_template_namespace.pressed": {}
+                                                                                                },
+                                                                                                {
+                                                                                                    "label": {
+                                                                                                        "type": "label",
+                                                                                                        "anchor_from": "left_middle",
+                                                                                                        "anchor_to": "left_middle",
+                                                                                                        "offset": [
+                                                                                                            10.0,
+                                                                                                            0.0
+                                                                                                        ],
+                                                                                                        "size": [
+                                                                                                            95.0,
+                                                                                                            "default"
+                                                                                                        ],
+                                                                                                        "layer": 3,
+                                                                                                        "font_scale_factor": 1.3,
+                                                                                                        "font_type": "default",
+                                                                                                        "text": "更新信息",
+                                                                                                        "text_alignment": "center",
+                                                                                                        "controls": [
+                                                                                                            {
+                                                                                                                "image": {
+                                                                                                                    "type": "image",
+                                                                                                                    "anchor_from": "left_middle",
+                                                                                                                    "anchor_to": "left_middle",
+                                                                                                                    "size": [
+                                                                                                                        15.0,
+                                                                                                                        "default"
+                                                                                                                    ],
+                                                                                                                    "layer": 1,
+                                                                                                                    "texture": "textures/ui/WarningGlyph"
+                                                                                                                }
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "about@common.button": {
+                                                                                            "type": "button",
+                                                                                            "$control_alpha": 1.0,
+                                                                                            "$default_texture": "textures/OreUI/Button/snow_formal_dark_btn_default",
+                                                                                            "$hover_texture": "textures/OreUI/Button/snow_formal_dark_btn_hover",
+                                                                                            "$is_new_nine_slice": false,
+                                                                                            "$label_color": [
+                                                                                                1,
+                                                                                                1,
+                                                                                                1
+                                                                                            ],
+                                                                                            "$label_font_scale_factor": 1.0,
+                                                                                            "$label_font_size": "large",
+                                                                                            "$label_layer": 3,
+                                                                                            "$label_offset": [
+                                                                                                0,
+                                                                                                0
+                                                                                            ],
+                                                                                            "$label_text": "",
+                                                                                            "$nine_slice_buttom": 0,
+                                                                                            "$nine_slice_left": 0,
+                                                                                            "$nine_slice_right": 0,
+                                                                                            "$nine_slice_top": 0,
+                                                                                            "$nineslice_size": [
+                                                                                                2.0,
+                                                                                                2.0,
+                                                                                                2.0,
+                                                                                                2.0
+                                                                                            ],
+                                                                                            "$pressed_button_name": "%netease_editor_template_namespace.click",
+                                                                                            "$pressed_texture": "textures/OreUI/Button/snow_formal_dark_btn_pressed",
+                                                                                            "$texture_layer": 2,
+                                                                                            "anchor_from": "top_left",
+                                                                                            "anchor_to": "top_left",
+                                                                                            "offset": [
+                                                                                                0.0,
+                                                                                                58.0
+                                                                                            ],
+                                                                                            "size": [
+                                                                                                "100%+0px",
+                                                                                                30.0
+                                                                                            ],
+                                                                                            "layer": 2,
+                                                                                            "button_mappings": [],
+                                                                                            "default_control": "default",
+                                                                                            "hover_control": "hover",
+                                                                                            "is_handle_button_move_event": true,
+                                                                                            "pressed_control": "pressed",
+                                                                                            "bindings": [
+                                                                                                {
+                                                                                                    "binding_type": "collection_details",
+                                                                                                    "binding_collection_name": "",
+                                                                                                    "binding_condition": "always_when_visible"
+                                                                                                }
+                                                                                            ],
+                                                                                            "controls": [
+                                                                                                {
+                                                                                                    "default@netease_editor_template_namespace.default": {}
+                                                                                                },
+                                                                                                {
+                                                                                                    "hover@netease_editor_template_namespace.hover": {}
+                                                                                                },
+                                                                                                {
+                                                                                                    "pressed@netease_editor_template_namespace.pressed": {}
+                                                                                                },
+                                                                                                {
+                                                                                                    "label": {
+                                                                                                        "type": "label",
+                                                                                                        "anchor_from": "left_middle",
+                                                                                                        "anchor_to": "left_middle",
+                                                                                                        "offset": [
+                                                                                                            10.0,
+                                                                                                            0.0
+                                                                                                        ],
+                                                                                                        "size": [
+                                                                                                            95.0,
+                                                                                                            "default"
+                                                                                                        ],
+                                                                                                        "layer": 3,
+                                                                                                        "font_scale_factor": 1.3,
+                                                                                                        "font_type": "default",
+                                                                                                        "text": "关于作者",
+                                                                                                        "text_alignment": "center",
+                                                                                                        "controls": [
+                                                                                                            {
+                                                                                                                "image": {
+                                                                                                                    "type": "image",
+                                                                                                                    "anchor_from": "left_middle",
+                                                                                                                    "anchor_to": "left_middle",
+                                                                                                                    "size": [
+                                                                                                                        15.0,
+                                                                                                                        "default"
+                                                                                                                    ],
+                                                                                                                    "layer": 1,
+                                                                                                                    "color": [
+                                                                                                                        1.0,
+                                                                                                                        1.0,
+                                                                                                                        1.0
+                                                                                                                    ],
+                                                                                                                    "texture": "textures/ui/deop"
+                                                                                                                }
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "right_panel": {
+                                                                    "type": "panel",
+                                                                    "anchor_from": "top_right",
+                                                                    "anchor_to": "top_right",
+                                                                    "size": [
+                                                                        "68%+0px",
+                                                                        "100%+0px"
+                                                                    ],
+                                                                    "layer": 1,
+                                                                    "controls": [
+                                                                        {
+                                                                            "panel": {
+                                                                                "type": "panel",
+                                                                                "offset": "@UI_Settings.offset",
+                                                                                "layer": 1,
+                                                                                "controls": [
+                                                                                    {
+                                                                                        "mod_set@common.scrolling_panel": {
+                                                                                            "$background_nine_slice_buttom": 0,
+                                                                                            "$background_nine_slice_left": 0,
+                                                                                            "$background_nine_slice_right": 0,
+                                                                                            "$background_nine_slice_top": 0,
+                                                                                            "$background_nineslice_size": [
+                                                                                                0,
+                                                                                                0,
+                                                                                                0,
+                                                                                                0
+                                                                                            ],
+                                                                                            "$box_nine_slice_buttom": 0,
+                                                                                            "$box_nine_slice_left": 0,
+                                                                                            "$box_nine_slice_right": 0,
+                                                                                            "$box_nine_slice_top": 0,
+                                                                                            "$box_nineslice_size": [
+                                                                                                1,
+                                                                                                1,
+                                                                                                2,
+                                                                                                6
+                                                                                            ],
+                                                                                            "$is_background_nine_slice": false,
+                                                                                            "$is_box_nine_slice": false,
+                                                                                            "$is_track_nine_slice": false,
+                                                                                            "$scroll_background_image_control": "netease_editor_template_namespace.scroll_background_image",
+                                                                                            "$scroll_background_texture": "textures/ui/ScrollRail",
+                                                                                            "$scroll_box_mouse_image_control": "netease_editor_template_namespace.scroll_box_image",
+                                                                                            "$scroll_box_texture": "textures/OreUI/Scroll/snow_scroll_bar_default",
+                                                                                            "$scroll_box_touch_image_control": "netease_editor_template_namespace.scroll_box_image",
+                                                                                            "$scroll_track_image_control": "netease_editor_template_namespace.scroll_track_image",
+                                                                                            "$scroll_track_texture": "textures/ui/ScrollRail",
+                                                                                            "$scroll_view_port_max_size_touch|default": [
+                                                                                                "100%+0px",
+                                                                                                "500%+0px"
+                                                                                            ],
+                                                                                            "$scrolling_content": "UI_Settings.right_panel_modset",
+                                                                                            "$show_background": false,
+                                                                                            "$track_nine_slice_buttom": 0,
+                                                                                            "$track_nine_slice_left": 0,
+                                                                                            "$track_nine_slice_right": 0,
+                                                                                            "$track_nine_slice_top": 0,
+                                                                                            "$track_nineslice_size": [
+                                                                                                0,
+                                                                                                0,
+                                                                                                0,
+                                                                                                0
+                                                                                            ],
+                                                                                            "anchor_from": "right_middle",
+                                                                                            "anchor_to": "right_middle",
+                                                                                            "layer": 9
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "mod_update@common.scrolling_panel": {
+                                                                                            "$background_nine_slice_buttom": 0,
+                                                                                            "$background_nine_slice_left": 0,
+                                                                                            "$background_nine_slice_right": 0,
+                                                                                            "$background_nine_slice_top": 0,
+                                                                                            "$background_nineslice_size": [
+                                                                                                0,
+                                                                                                0,
+                                                                                                0,
+                                                                                                0
+                                                                                            ],
+                                                                                            "$box_nine_slice_buttom": 0,
+                                                                                            "$box_nine_slice_left": 0,
+                                                                                            "$box_nine_slice_right": 0,
+                                                                                            "$box_nine_slice_top": 0,
+                                                                                            "$box_nineslice_size": [
+                                                                                                1,
+                                                                                                1,
+                                                                                                2,
+                                                                                                6
+                                                                                            ],
+                                                                                            "$is_background_nine_slice": false,
+                                                                                            "$is_box_nine_slice": false,
+                                                                                            "$is_track_nine_slice": false,
+                                                                                            "$scroll_background_image_control": "netease_editor_template_namespace.scroll_background_image",
+                                                                                            "$scroll_background_texture": "textures/ui/ScrollRail",
+                                                                                            "$scroll_box_mouse_image_control": "netease_editor_template_namespace.scroll_box_image",
+                                                                                            "$scroll_box_texture": "textures/OreUI/Scroll/snow_scroll_bar_default",
+                                                                                            "$scroll_box_touch_image_control": "netease_editor_template_namespace.scroll_box_image",
+                                                                                            "$scroll_track_image_control": "netease_editor_template_namespace.scroll_track_image",
+                                                                                            "$scroll_track_texture": "textures/ui/ScrollRail",
+                                                                                            "$scroll_view_port_max_size_touch|default": [
+                                                                                                "100%+0px",
+                                                                                                "500%+0px"
+                                                                                            ],
+                                                                                            "$scrolling_content": "UI_Settings.right_panel_update",
+                                                                                            "$show_background": false,
+                                                                                            "$track_nine_slice_buttom": 0,
+                                                                                            "$track_nine_slice_left": 0,
+                                                                                            "$track_nine_slice_right": 0,
+                                                                                            "$track_nine_slice_top": 0,
+                                                                                            "$track_nineslice_size": [
+                                                                                                0,
+                                                                                                0,
+                                                                                                0,
+                                                                                                0
+                                                                                            ],
+                                                                                            "anchor_from": "right_middle",
+                                                                                            "anchor_to": "right_middle",
+                                                                                            "layer": 9
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "mod_about@common.scrolling_panel": {
+                                                                                            "$background_nine_slice_buttom": 0,
+                                                                                            "$background_nine_slice_left": 0,
+                                                                                            "$background_nine_slice_right": 0,
+                                                                                            "$background_nine_slice_top": 0,
+                                                                                            "$background_nineslice_size": [
+                                                                                                0,
+                                                                                                0,
+                                                                                                0,
+                                                                                                0
+                                                                                            ],
+                                                                                            "$box_nine_slice_buttom": 0,
+                                                                                            "$box_nine_slice_left": 0,
+                                                                                            "$box_nine_slice_right": 0,
+                                                                                            "$box_nine_slice_top": 0,
+                                                                                            "$box_nineslice_size": [
+                                                                                                1,
+                                                                                                1,
+                                                                                                2,
+                                                                                                6
+                                                                                            ],
+                                                                                            "$is_background_nine_slice": false,
+                                                                                            "$is_box_nine_slice": false,
+                                                                                            "$is_track_nine_slice": false,
+                                                                                            "$scroll_background_image_control": "netease_editor_template_namespace.scroll_background_image",
+                                                                                            "$scroll_background_texture": "textures/ui/ScrollRail",
+                                                                                            "$scroll_box_mouse_image_control": "netease_editor_template_namespace.scroll_box_image",
+                                                                                            "$scroll_box_texture": "textures/OreUI/Scroll/snow_scroll_bar_default",
+                                                                                            "$scroll_box_touch_image_control": "netease_editor_template_namespace.scroll_box_image",
+                                                                                            "$scroll_track_image_control": "netease_editor_template_namespace.scroll_track_image",
+                                                                                            "$scroll_track_texture": "textures/ui/ScrollRail",
+                                                                                            "$scroll_view_port_max_size_touch|default": [
+                                                                                                "100%+0px",
+                                                                                                "500%+0px"
+                                                                                            ],
+                                                                                            "$scrolling_content": "UI_Settings.right_panel_about",
+                                                                                            "$show_background": false,
+                                                                                            "$track_nine_slice_buttom": 0,
+                                                                                            "$track_nine_slice_left": 0,
+                                                                                            "$track_nine_slice_right": 0,
+                                                                                            "$track_nine_slice_top": 0,
+                                                                                            "$track_nineslice_size": [
+                                                                                                0,
+                                                                                                0,
+                                                                                                0,
+                                                                                                0
+                                                                                            ],
+                                                                                            "anchor_from": "right_middle",
+                                                                                            "anchor_to": "right_middle",
+                                                                                            "layer": 9
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "bg": {
+                                                                                "type": "image",
+                                                                                "size": [
+                                                                                    "100%+0px",
+                                                                                    "100%+0px"
+                                                                                ],
+                                                                                "layer": 1,
+                                                                                "nineslice_size": [
+                                                                                    2.0,
+                                                                                    2.0,
+                                                                                    2.0,
+                                                                                    2.0
+                                                                                ],
+                                                                                "texture": "textures/OreUI/Dialog/snow_dialog_bkg"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "topbar": {
+                                                        "type": "image",
+                                                        "anchor_from": "top_middle",
+                                                        "anchor_to": "top_middle",
+                                                        "size": [
+                                                            "100%+0px",
+                                                            "7%+0px"
+                                                        ],
+                                                        "layer": 1,
+                                                        "color": [
+                                                            1.0,
+                                                            1.0,
+                                                            1.0
+                                                        ],
+                                                        "nineslice_size": [
+                                                            2.0,
+                                                            2.0,
+                                                            2.0,
+                                                            2.0
+                                                        ],
+                                                        "texture": "textures/OreUI/TopBar/title_bar",
+                                                        "controls": [
+                                                            {
+                                                                "button@common.button": {
+                                                                    "type": "button",
+                                                                    "$control_alpha": 1.0,
+                                                                    "$default_texture": "",
+                                                                    "$hover_texture": "",
+                                                                    "$is_new_nine_slice": false,
+                                                                    "$label_color": [
+                                                                        1,
+                                                                        1,
+                                                                        1
+                                                                    ],
+                                                                    "$label_font_scale_factor": 1.0,
+                                                                    "$label_font_size": "large",
+                                                                    "$label_layer": 3,
+                                                                    "$label_offset": [
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "$label_text": "",
+                                                                    "$nine_slice_buttom": 0,
+                                                                    "$nine_slice_left": 0,
+                                                                    "$nine_slice_right": 0,
+                                                                    "$nine_slice_top": 0,
+                                                                    "$nineslice_size": [
+                                                                        0,
+                                                                        0,
+                                                                        0,
+                                                                        0
+                                                                    ],
+                                                                    "$pressed_button_name": "%netease_editor_template_namespace.click",
+                                                                    "$pressed_texture": "",
+                                                                    "$texture_layer": 2,
+                                                                    "anchor_from": "left_middle",
+                                                                    "anchor_to": "left_middle",
+                                                                    "offset": [
+                                                                        3.0,
+                                                                        0.0
+                                                                    ],
+                                                                    "size": [
+                                                                        60.0,
+                                                                        "default"
+                                                                    ],
+                                                                    "layer": 2,
+                                                                    "button_mappings": [],
+                                                                    "default_control": "default",
+                                                                    "hover_control": "hover",
+                                                                    "is_handle_button_move_event": true,
+                                                                    "pressed_control": "pressed",
+                                                                    "bindings": [
+                                                                        {
+                                                                            "binding_type": "collection_details",
+                                                                            "binding_collection_name": "",
+                                                                            "binding_condition": "always_when_visible"
+                                                                        }
+                                                                    ],
+                                                                    "controls": [
+                                                                        {
+                                                                            "default@netease_editor_template_namespace.default": {}
+                                                                        },
+                                                                        {
+                                                                            "hover@netease_editor_template_namespace.hover": {}
+                                                                        },
+                                                                        {
+                                                                            "pressed@netease_editor_template_namespace.pressed": {}
+                                                                        },
+                                                                        {
+                                                                            "button_label@netease_editor_template_namespace.button_label": {}
+                                                                        },
+                                                                        {
+                                                                            "label": {
+                                                                                "type": "label",
+                                                                                "anchor_from": "right_middle",
+                                                                                "anchor_to": "right_middle",
+                                                                                "offset": [
+                                                                                    -7.0,
+                                                                                    0.0
+                                                                                ],
+                                                                                "color": [
+                                                                                    0.0,
+                                                                                    0.0,
+                                                                                    0.0
+                                                                                ],
+                                                                                "font_type": "default",
+                                                                                "text": "模组配置",
+                                                                                "text_alignment": "center"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "image": {
+                                                                                "type": "image",
+                                                                                "anchor_from": "left_middle",
+                                                                                "anchor_to": "left_middle",
+                                                                                "size": [
+                                                                                    18.0,
+                                                                                    "default"
+                                                                                ],
+                                                                                "layer": 1,
+                                                                                "color": [
+                                                                                    1.0,
+                                                                                    1.0,
+                                                                                    1.0
+                                                                                ],
+                                                                                "texture": "textures/ui/back_button_default"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "backgroud": {
+                    "type": "image",
+                    "layer": 1,
+                    "alpha": 0.75,
+                    "color": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "fill": true,
+                    "texture": "textures/ui/white_background"
+                }
+            }
+        ]
+    },
+    "namespace": "UI_Settings",
+    "offset": {
+        "anim_type": "offset",
+        "duration": 0.2,
+        "from": [
+            0,
+            30
+        ],
+        "next": "",
+        "to": [
+            0,
+            0
+        ]
+    },
+    "offset1": {
+        "anim_type": "offset",
+        "duration": 0.2,
+        "from": [
+            "100%+0px",
+            0
+        ],
+        "next": "",
+        "to": [
+            0,
+            0
+        ]
+    },
+    "right_panel_about": {
+        "type": "stack_panel",
+        "size": [
+            "100%+0px",
+            "default"
+        ],
+        "layer": 1,
+        "controls": [
+            {
+                "title": {
+                    "type": "panel",
+                    "size": [
+                        "default",
+                        45.0
+                    ],
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "label": {
+                                "type": "label",
+                                "anchor_from": "center",
+                                "anchor_to": "center",
+                                "color": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "font_scale_factor": 3.5,
+                                "font_type": "smooth",
+                                "shadow": true,
+                                "text": "SnowMCCN",
+                                "text_alignment": "center"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "version": {
+                    "type": "panel",
+                    "size": [
+                        "default",
+                        25.0
+                    ],
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "label": {
+                                "type": "label",
+                                "anchor_from": "center",
+                                "anchor_to": "center",
+                                "color": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "font_type": "default",
+                                "text": "模组版本: v0.0.1",
+                                "text_alignment": "center"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "author": {
+                    "type": "panel",
+                    "size": [
+                        "default",
+                        25.0
+                    ],
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "label": {
+                                "type": "label",
+                                "anchor_from": "center",
+                                "anchor_to": "center",
+                                "color": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "font_type": "default",
+                                "text": "作者: SnowMCCN",
+                                "text_alignment": "center"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "contributor": {
+                    "type": "panel",
+                    "size": [
+                        "default",
+                        25.0
+                    ],
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "label": {
+                                "type": "label",
+                                "anchor_from": "center",
+                                "anchor_to": "center",
+                                "color": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "font_type": "default",
+                                "text": "贡献者: 嗜姬如雪",
+                                "text_alignment": "center"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "right_panel_modset": {
+        "type": "stack_panel",
+        "anchor_from": "top_middle",
+        "anchor_to": "top_middle",
+        "size": [
+            "100%+0px",
+            "default"
+        ],
+        "layer": 1,
+        "controls": [
+            {
+                "title": {
+                    "type": "panel",
+                    "size": [
+                        "default",
+                        20.0
+                    ],
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "label": {
+                                "type": "label",
+                                "anchor_from": "left_middle",
+                                "anchor_to": "left_middle",
+                                "offset": [
+                                    5.0,
+                                    0.0
+                                ],
+                                "color": [
+                                    0.5686274509803921,
+                                    0.5686274509803921,
+                                    0.5686274509803921
+                                ],
+                                "font_scale_factor": 1.1,
+                                "font_type": "default",
+                                "text": "按钮相关设置 [HUD界面设置]",
+                                "text_alignment": "center"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "divider": {
+                    "type": "image",
+                    "size": [
+                        "default",
+                        1.5
+                    ],
+                    "layer": 1,
+                    "color": [
+                        0.5686274509803921,
+                        0.5686274509803921,
+                        0.5686274509803921
+                    ],
+                    "fill": true,
+                    "texture": "textures/ui/horizontal_divider"
+                }
+            },
+            {
+                "hide_panel": {
+                    "type": "panel",
+                    "size": [
+                        "default",
+                        30.0
+                    ],
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "label": {
+                                "type": "label",
+                                "anchor_from": "left_middle",
+                                "anchor_to": "left_middle",
+                                "offset": [
+                                    5.0,
+                                    0.0
+                                ],
+                                "layer": 2,
+                                "font_type": "default",
+                                "text": "是否隐藏按钮",
+                                "text_alignment": "center"
+                            }
+                        },
+                        {
+                            "switch_toggle@common_toggles.switch_toggle_collection": {
+                                "type": "panel",
+                                "$checked_locked_texture": "textures/OreUI/Toggle/snow_toggle_enabled_default",
+                                "$default_texture": "textures/OreUI/Toggle/snow_toggle_disabled_default",
+                                "$hover_texture": "textures/OreUI/Toggle/snow_toggle_enabled_default",
+                                "$pressed_no_hover_texture": "textures/OreUI/Toggle/snow_toggle_enabled_hover",
+                                "$pressed_texture": "textures/OreUI/Toggle/snow_toggle_disabled_hover",
+                                "$toggle_name": "#netease_editor_template_namespace.toggle_name",
+                                "$toggle_state_binding_name": "#netease_editor_template_namespace.toggle_state",
+                                "$unchecked_locked_texture": "textures/OreUI/Toggle/snow_toggle_disabled_default",
+                                "anchor_from": "right_middle",
+                                "anchor_to": "right_middle",
+                                "offset": [
+                                    -5.0,
+                                    0.0
+                                ],
+                                "size": [
+                                    35.0,
+                                    "default"
+                                ],
+                                "layer": 1,
+                                "bindings": [
+                                    {
+                                        "binding_type": "collection_details",
+                                        "binding_collection_name": "",
+                                        "binding_condition": "always_when_visible"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "bg": {
+                                "type": "image",
+                                "layer": 1,
+                                "clip_direction": "down",
+                                "clip_ratio": 0.01,
+                                "fill": true,
+                                "nineslice_size": [
+                                    2.0,
+                                    2.0,
+                                    2.0,
+                                    2.0
+                                ],
+                                "texture": "textures/OreUI/Dialog/snow_dialog_bkg"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "save_panel": {
+                    "type": "panel",
+                    "size": [
+                        "default",
+                        30.0
+                    ],
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "label": {
+                                "type": "label",
+                                "anchor_from": "left_middle",
+                                "anchor_to": "left_middle",
+                                "offset": [
+                                    5.0,
+                                    0.0
+                                ],
+                                "layer": 2,
+                                "font_type": "default",
+                                "text": "是否自动保存位置",
+                                "text_alignment": "center"
+                            }
+                        },
+                        {
+                            "switch_toggle@common_toggles.switch_toggle_collection": {
+                                "type": "panel",
+                                "$checked_locked_texture": "textures/OreUI/Toggle/snow_toggle_enabled_default",
+                                "$default_texture": "textures/OreUI/Toggle/snow_toggle_disabled_default",
+                                "$hover_texture": "textures/OreUI/Toggle/snow_toggle_enabled_default",
+                                "$pressed_no_hover_texture": "textures/OreUI/Toggle/snow_toggle_enabled_hover",
+                                "$pressed_texture": "textures/OreUI/Toggle/snow_toggle_disabled_hover",
+                                "$toggle_name": "#netease_editor_template_namespace.toggle_name",
+                                "$toggle_state_binding_name": "#netease_editor_template_namespace.toggle_state",
+                                "$unchecked_locked_texture": "textures/OreUI/Toggle/snow_toggle_disabled_default",
+                                "anchor_from": "right_middle",
+                                "anchor_to": "right_middle",
+                                "offset": [
+                                    -5.0,
+                                    0.0
+                                ],
+                                "size": [
+                                    35.0,
+                                    "default"
+                                ],
+                                "layer": 1,
+                                "bindings": [
+                                    {
+                                        "binding_type": "collection_details",
+                                        "binding_collection_name": "",
+                                        "binding_condition": "always_when_visible"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "bg": {
+                                "type": "image",
+                                "layer": 1,
+                                "clip_direction": "down",
+                                "clip_ratio": 0.01,
+                                "fill": true,
+                                "nineslice_size": [
+                                    2.0,
+                                    2.0,
+                                    2.0,
+                                    2.0
+                                ],
+                                "texture": "textures/OreUI/Dialog/snow_dialog_bkg"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "drag_panel": {
+                    "type": "panel",
+                    "size": [
+                        "default",
+                        30.0
+                    ],
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "label": {
+                                "type": "label",
+                                "anchor_from": "left_middle",
+                                "anchor_to": "left_middle",
+                                "offset": [
+                                    5.0,
+                                    0.0
+                                ],
+                                "layer": 2,
+                                "font_type": "default",
+                                "text": "是否可拖拽",
+                                "text_alignment": "center"
+                            }
+                        },
+                        {
+                            "switch_toggle@common_toggles.switch_toggle_collection": {
+                                "type": "panel",
+                                "$checked_locked_texture": "textures/OreUI/Toggle/snow_toggle_enabled_default",
+                                "$default_texture": "textures/OreUI/Toggle/snow_toggle_disabled_default",
+                                "$hover_texture": "textures/OreUI/Toggle/snow_toggle_enabled_default",
+                                "$pressed_no_hover_texture": "textures/OreUI/Toggle/snow_toggle_enabled_hover",
+                                "$pressed_texture": "textures/OreUI/Toggle/snow_toggle_disabled_hover",
+                                "$toggle_name": "#netease_editor_template_namespace.toggle_name",
+                                "$toggle_state_binding_name": "#netease_editor_template_namespace.toggle_state",
+                                "$unchecked_locked_texture": "textures/OreUI/Toggle/snow_toggle_disabled_default",
+                                "anchor_from": "right_middle",
+                                "anchor_to": "right_middle",
+                                "offset": [
+                                    -5.0,
+                                    0.0
+                                ],
+                                "size": [
+                                    35.0,
+                                    "default"
+                                ],
+                                "layer": 1,
+                                "bindings": [
+                                    {
+                                        "binding_type": "collection_details",
+                                        "binding_collection_name": "",
+                                        "binding_condition": "always_when_visible"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "bg": {
+                                "type": "image",
+                                "layer": 1,
+                                "clip_direction": "down",
+                                "clip_ratio": 0.01,
+                                "fill": true,
+                                "nineslice_size": [
+                                    2.0,
+                                    2.0,
+                                    2.0,
+                                    2.0
+                                ],
+                                "texture": "textures/OreUI/Dialog/snow_dialog_bkg"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "alpha_panel": {
+                    "type": "panel",
+                    "size": [
+                        "default",
+                        45.0
+                    ],
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "label": {
+                                "type": "label",
+                                "anchor_from": "top_left",
+                                "anchor_to": "top_left",
+                                "offset": [
+                                    7.0,
+                                    10.0
+                                ],
+                                "layer": 2,
+                                "font_type": "default",
+                                "text": "Alpha设置 - 透明度设置",
+                                "text_alignment": "center"
+                            }
+                        },
+                        {
+                            "bg": {
+                                "type": "image",
+                                "layer": 1,
+                                "clip_direction": "down",
+                                "clip_ratio": 0.01,
+                                "fill": true,
+                                "nineslice_size": [
+                                    2.0,
+                                    2.0,
+                                    2.0,
+                                    2.0
+                                ],
+                                "texture": "textures/OreUI/Dialog/snow_dialog_bkg"
+                            }
+                        },
+                        {
+                            "slider@common.slider": {
+                                "$background_default_control": "UI_Settings.snow_progress_empty",
+                                "$background_hover_control": "UI_Settings.snow_progress_empty",
+                                "$progress_default_clip_direction": "left",
+                                "$progress_default_control": "UI_Settings.snow_progress_full",
+                                "$progress_hover_clip_direction": "left",
+                                "$progress_hover_control": "UI_Settings.snow_progress_full",
+                                "$slider_box_hover_layout": "UI_Settings.snow_slider_box_hover",
+                                "$slider_box_indent_layout": "common.slider_button_indent_layout",
+                                "$slider_box_layout": "UI_Settings.snow_slider_box_default",
+                                "$slider_box_locked_layout": "common.slider_button_locked_layout",
+                                "$slider_box_size": [
+                                    10,
+                                    16
+                                ],
+                                "$slider_direction": "horizontal",
+                                "$slider_name|default": "netease_slider_name",
+                                "$slider_step_factory_control_ids": {
+                                    "slider_step": "@common.slider_step",
+                                    "slider_step_hover": "@common.slider_step_hover",
+                                    "slider_step_progress": "@common.slider_step_progress",
+                                    "slider_step_progress_hover": "@common.slider_step_progress_hover"
+                                },
+                                "$slider_tts_text_value": "#netease_tts_text_value",
+                                "anchor_from": "bottom_middle",
+                                "anchor_to": "bottom_middle",
+                                "offset": [
+                                    0,
+                                    -5
+                                ],
+                                "size": [
+                                    "96%+0px",
+                                    10
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "reset_panel": {
+                    "type": "panel",
+                    "size": [
+                        "default",
+                        30.0
+                    ],
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "label": {
+                                "type": "label",
+                                "anchor_from": "left_middle",
+                                "anchor_to": "left_middle",
+                                "offset": [
+                                    5.0,
+                                    0.0
+                                ],
+                                "layer": 2,
+                                "color": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "font_type": "default",
+                                "text": "重置相关设置",
+                                "text_alignment": "center"
+                            }
+                        },
+                        {
+                            "bg": {
+                                "type": "image",
+                                "layer": 1,
+                                "clip_direction": "down",
+                                "clip_ratio": 0.01,
+                                "fill": true,
+                                "nineslice_size": [
+                                    2.0,
+                                    2.0,
+                                    2.0,
+                                    2.0
+                                ],
+                                "texture": "textures/OreUI/Dialog/snow_dialog_bkg"
+                            }
+                        },
+                        {
+                            "button@common.button": {
+                                "type": "button",
+                                "$control_alpha": 1.0,
+                                "$default_texture": "textures/OreUI/Button/snow_red_btn_default",
+                                "$hover_texture": "textures/OreUI/Button/snow_red_btn_hover",
+                                "$is_new_nine_slice": false,
+                                "$label_color": [
+                                    1,
+                                    1,
+                                    1
+                                ],
+                                "$label_font_scale_factor": 1.0,
+                                "$label_font_size": "normal",
+                                "$label_layer": 3,
+                                "$label_offset": [
+                                    0,
+                                    0
+                                ],
+                                "$label_text": "RESET",
+                                "$nine_slice_buttom": 0,
+                                "$nine_slice_left": 0,
+                                "$nine_slice_right": 0,
+                                "$nine_slice_top": 0,
+                                "$nineslice_size": [
+                                    2.0,
+                                    2.0,
+                                    2.0,
+                                    2.0
+                                ],
+                                "$pressed_button_name": "%netease_editor_template_namespace.click",
+                                "$pressed_texture": "textures/OreUI/Button/snow_red_btn_pressed",
+                                "$texture_layer": 2,
+                                "anchor_from": "right_middle",
+                                "anchor_to": "right_middle",
+                                "offset": [
+                                    -7.0,
+                                    0.0
+                                ],
+                                "size": [
+                                    37.0,
+                                    17.0
+                                ],
+                                "layer": 2,
+                                "button_mappings": [],
+                                "default_control": "default",
+                                "hover_control": "hover",
+                                "is_handle_button_move_event": true,
+                                "pressed_control": "pressed",
+                                "bindings": [
+                                    {
+                                        "binding_type": "collection_details",
+                                        "binding_collection_name": "",
+                                        "binding_condition": "always_when_visible"
+                                    }
+                                ],
+                                "controls": [
+                                    {
+                                        "default@netease_editor_template_namespace.default": {}
+                                    },
+                                    {
+                                        "hover@netease_editor_template_namespace.hover": {}
+                                    },
+                                    {
+                                        "pressed@netease_editor_template_namespace.pressed": {}
+                                    },
+                                    {
+                                        "label": {
+                                            "type": "label",
+                                            "offset": [
+                                                0.0,
+                                                -1.0
+                                            ],
+                                            "layer": 2,
+                                            "font_scale_factor": 0.9,
+                                            "font_type": "smooth",
+                                            "text": "RESET",
+                                            "text_alignment": "center"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "right_panel_update": {
+        "type": "stack_panel",
+        "anchor_from": "left_middle",
+        "anchor_to": "left_middle",
+        "size": [
+            "100%+0px",
+            "default"
+        ],
+        "layer": 1,
+        "controls": [
+            {
+                "update": {
+                    "type": "panel",
+                    "size": [
+                        "125%c+0px",
+                        "110%c+0px"
+                    ],
+                    "layer": 1,
+                    "controls": [
+                        {
+                            "label": {
+                                "type": "label",
+                                "anchor_from": "center",
+                                "anchor_to": "center",
+                                "color": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "font_type": "default",
+                                "text": "更新日志"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "snow_progress_empty": {
+        "type": "image",
+        "layer": 1,
+        "color": [
+            0.5686274509803921,
+            0.5686274509803921,
+            0.5686274509803921
+        ],
+        "fill": true,
+        "nineslice_size": [
+            2.0,
+            2.0,
+            2.0,
+            2.0
+        ],
+        "texture": "textures/OreUI/Slider/snow_slider_bar_empty"
+    },
+    "snow_progress_full": {
+        "type": "image",
+        "layer": 1,
+        "color": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "fill": true,
+        "nineslice_size": [
+            2.0,
+            2.0,
+            2.0,
+            2.0
+        ],
+        "texture": "textures/OreUI/Slider/snow_slider_bar_full"
+    },
+    "snow_slider_box_default": {
+        "type": "image",
+        "layer": 1,
+        "fill": true,
+        "nineslice_size": [
+            2.0,
+            2.0,
+            2.0,
+            2.0
+        ],
+        "texture": "textures/OreUI/Slider/snow_slider_box_default"
+    },
+    "snow_slider_box_hover": {
+        "type": "image",
+        "layer": 1,
+        "fill": true,
+        "nineslice_size": [
+            2.0,
+            2.0,
+            2.0,
+            2.0
+        ],
+        "texture": "textures/OreUI/Slider/snow_slider_box_hover"
+    }
+}
